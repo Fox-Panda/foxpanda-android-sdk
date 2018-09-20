@@ -1,0 +1,63 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>PreferenceUtil - foxpandasdk</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">foxpandasdk</a>&nbsp;/&nbsp;<a href="../index.html">com.sdk.foxpanda.utils</a>&nbsp;/&nbsp;<a href="./index.html">PreferenceUtil</a><br/>
+<br/>
+<h1>PreferenceUtil</h1>
+<code><span class="keyword">object </span><span class="identifier">PreferenceUtil</span></code>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-n-a-m-e.html">NAME</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">NAME</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="edit.html">edit</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">SharedPreferences</span><span class="symbol">.</span><span class="identifier">edit</span><span class="symbol">(</span><span class="identifier" id="com.sdk.foxpanda.utils.PreferenceUtil$edit(android.content.SharedPreferences, kotlin.Function1((android.content.SharedPreferences.Editor, kotlin.Unit)))/operation">operation</span><span class="symbol">:</span>&nbsp;<span class="symbol">(</span><span class="identifier">Editor</span><span class="symbol">)</span>&nbsp;<span class="symbol">-&gt;</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="get.html">get</a></p>
+</td>
+<td>
+<code><span class="keyword">operator</span> <span class="keyword">fun </span><span class="symbol">&lt;</span><span class="identifier">T</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">&gt;</span> <span class="identifier">SharedPreferences</span><span class="symbol">.</span><span class="identifier">get</span><span class="symbol">(</span><span class="identifier" id="com.sdk.foxpanda.utils.PreferenceUtil$get(android.content.SharedPreferences, kotlin.String)/key">key</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="get.html#T"><span class="identifier">T</span></a></code>
+<p>finds value on given key.
+<a href="get.html#T">T</a> is the type of value</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="pref.html">pref</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">pref</span><span class="symbol">(</span><span class="identifier" id="com.sdk.foxpanda.utils.PreferenceUtil$pref(android.content.Context)/context">context</span><span class="symbol">:</span>&nbsp;<span class="identifier">Context</span><span class="symbol">)</span><span class="symbol">: </span><span class="identifier">SharedPreferences</span></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="set.html">set</a></p>
+</td>
+<td>
+<code><span class="keyword">operator</span> <span class="keyword">fun </span><span class="identifier">SharedPreferences</span><span class="symbol">.</span><span class="identifier">set</span><span class="symbol">(</span><span class="identifier" id="com.sdk.foxpanda.utils.PreferenceUtil$set(android.content.SharedPreferences, kotlin.String, kotlin.Any)/key">key</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">, </span><span class="identifier" id="com.sdk.foxpanda.utils.PreferenceUtil$set(android.content.SharedPreferences, kotlin.String, kotlin.Any)/value">value</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html"><span class="identifier">Any</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>puts a key value pair in shared prefs if doesn't exists, otherwise updates value on given <a href="set.html#com.sdk.foxpanda.utils.PreferenceUtil$set(android.content.SharedPreferences, kotlin.String, kotlin.Any)/key">key</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
